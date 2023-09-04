@@ -22,6 +22,7 @@ function App() {
           <Route path="/cv" element={<Cv />} />
           <Route path="/fun" element={<Fun />} />
           <Route path="/feed" element={<Feed />} />
+          <Route path="*" element={<Navigate to="/"/>}/>
         </Routes>
         <Footer />
         <ParticleBg />
