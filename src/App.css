@@ -168,7 +168,7 @@ span.navbar-toggler-icon {
     font-size: 4rem;
     margin-top: 0%;
     text-align: left;
-    margin-left: 2.8rem;
+    text-align: center;
   }
   .type{
     font-size: 1.5rem;
@@ -320,6 +320,13 @@ contactme
   text-align: center;
   border-radius: 100%;
 }
+@media(max-width:430px){
+    .connect{
+      text-align: center;
+      margin-bottom: 5rem;
+      font-family: 'Montserrat Alternates', sans-serif;
+    }
+}
 
 .icon-logo:hover{
   border-radius: 100%;
@@ -427,7 +434,13 @@ img{
   font-family: 'Montserrat Alternates', sans-serif;
   margin-bottom: 3rem;
 }
-
+.cv-title{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(180, 180, 180);
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 3rem;
+}
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -449,12 +462,18 @@ img{
   }
   .tech{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(180, 180, 180);
     font-family: 'Montserrat Alternates', sans-serif;
     margin-bottom: 3rem;
   }
-  
+  .cv-title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(180, 180, 180);
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 3rem;
+}
 }
 
 .tech-icons:hover {
