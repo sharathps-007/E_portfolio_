@@ -2,6 +2,8 @@ import './App.css';
 import './styles.css';
 import Navigation from './components/Navigation';
 // import Navigation2 from './components/Navigation2';
+// import Navigation3 from './components/Navigation3';
+// import Navigation4 from './components/Navigation4';
 import ParticleBg from './components/ParticleBg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
@@ -15,7 +17,7 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 function App() {
   return (
       <div className='background container-fluid' id='bg'>
-        <Navigation style={{position:"fixed"}}/>
+        <Navigation />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/about" element={<About />} />

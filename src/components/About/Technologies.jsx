@@ -13,7 +13,7 @@ import { TbSql } from "react-icons/tb";
 
 function Technologies() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "6rem" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "6rem", marginRight:"0", marginLeft:"0"}}>
        <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
         <p style={{fontSize:"1.5rem"}}>HTML</p>

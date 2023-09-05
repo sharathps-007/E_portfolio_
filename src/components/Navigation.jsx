@@ -1,36 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import MenuIcon from '@mui/icons-material/Menu';
 import CodeSharpIcon from '@mui/icons-material/CodeSharp';
 import HomeIcon from '@mui/icons-material/Home';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import PersonIcon from '@mui/icons-material/Person';
 import FeedbackIcon from '@mui/icons-material/Feedback';
 import FeedIcon from '@mui/icons-material/Feed';
-import Header from "./Home/Header";
-import Body from "./Home/Body";
-import ContactMe from "./Home/ContactMe";
+import { Link } from 'react-router-dom';
 
-
-function Navigation(){
-    return (
-        // <div className="welcome" style={{zIndex:"1"}}>
-         <Navbar class="navbar navbar-expand-lg NAVBAR" style={{position:"sticky",top:"2rem",zIndex:"1"}} bg="" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand className="brand" as={Link} to="/" style={{marginRight:"66%"}}><><CodeSharpIcon sx={{ fontSize: 60 }}/></></Navbar.Brand>
+function Navigation() {
+  return (
+    <Navbar collapseOnSelect expand="lg" className="navbar-dark sticky-top">
+      <Container>
+        <Navbar.Brand className="navbar-brand" aria-current="page" as={Link} to="/" href="#home"><CodeSharpIcon sx={{ fontSize: 60 }} className="nav-logo"/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="link" as={Link} to="/" href="#home"><HomeIcon style={{marginRight:"10%"}}/>Home</Nav.Link>
-            <Nav.Link className="link" as={Link} to="/about" href="#about"><PersonIcon style={{marginRight:"10%"}}/>About</Nav.Link>
-            <Nav.Link className="link" as={Link} to="/cv" href="#cv"><FeedIcon style={{marginRight:"10%"}}/>CV</Nav.Link>
-            <Nav.Link className="link" as={Link} to="/fun" href="#fun"><SportsEsportsIcon style={{marginRight:"10%"}}/>Fun</Nav.Link>
-            <Nav.Link className="link" as={Link} to="/feed" href="#feed"><FeedbackIcon style={{marginRight:"10%"}}/>Feedback</Nav.Link>
+            <Nav.Link className="nav-link active nav1" aria-current="page" as={Link} to="/" href="#home"><HomeIcon sx={{ fontSize: 25 }} className="nav-icon"/><br/>Home</Nav.Link>
+            <Nav.Link className="nav-link active nav1" as={Link} to="/about" href="#about"><PersonIcon sx={{ fontSize: 25 }} className="nav-icon"/><br/>About</Nav.Link>
+            <Nav.Link className="nav-link active nav1" as={Link} to="/cv" href="#cv"><FeedIcon sx={{ fontSize: 25 }} className="nav-icon"/><br/>CV</Nav.Link>         
+            <Nav.Link className="nav-link active nav1" as={Link} to="/fun" href="#fun"><SportsEsportsIcon sx={{ fontSize: 25 }} className="nav-icon"/><br/>Fun</Nav.Link>
+            <Nav.Link className="nav-link active nav1" as={Link} to="/feed" href="#feed"><FeedbackIcon sx={{ fontSize: 25 }} className="nav-icon"/><br/>Feedback</Nav.Link>
           </Nav>
-        </Container>
-        </Navbar>
-        // </div>  
-      );
-
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
+
 export default Navigation;

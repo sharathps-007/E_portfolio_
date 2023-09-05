@@ -3,10 +3,6 @@ import React from "react";
 
 
 function Fun(){
-
-
-
-
     return <div class="container-fluid fun-page">
     <div class="row head-fun"><center><p className="tech-fun">These are some of my <b style={{color:"aliceblue"}}>recent works</b>;<br/><b style={{color:"aliceblue"}}>Have Fun !</b></p></center></div>
     <div class="row rowChanges">

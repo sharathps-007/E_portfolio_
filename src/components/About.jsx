@@ -52,6 +52,7 @@ function About(){
           <Tools />
           </Row>
         </Container>
+        // </div>
     );
 }
 

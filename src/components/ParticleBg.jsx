@@ -30,7 +30,7 @@ function ParticleBg(){
                             mode: "repulse",
                         },
                         onHover: {
-                            enable: false,
+                            enable: true,
                             mode: "grab",
                         },
                         resize: true,
@@ -44,7 +44,7 @@ function ParticleBg(){
                             duration: 10,
                         },
                         grab: {
-                            distance: 100
+                            distance: 200
                         }
                     },
                 },

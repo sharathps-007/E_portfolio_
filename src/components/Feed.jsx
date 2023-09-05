@@ -7,7 +7,7 @@ function Feed(){
 
     return <div class="feedback">
 <h1>
-<KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/> Please provide your Feedback <KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/>
+<KeyboardDoubleArrowDownIcon className="feed-icons"/> Please provide your Feedback <KeyboardDoubleArrowDownIcon className="feed-icons"/>
 </h1>
 <p>Please feel free to share your thoughts, whether they relate to the overall layout,<br/>content arrangement, design aesthetics, or any other aspects that catch your attention.<br/>Your critical assessment will be useful in helping me refine my portfolio to its fullest potential.</p>
 <br/><br/>

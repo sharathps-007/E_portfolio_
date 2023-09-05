@@ -5,7 +5,7 @@ import {SiIntellijidea,SiPycharm,SiGithub, SiApachenetbeanside,SiAtom,SiEclipsei
 import {TbBrandVscode} from "react-icons/tb"
 function Tools() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px", marginLeft:"0", marginRight:"0"}}>
        <Col xs={4} md={2} className="tech-icons">
         <TbBrandVscode />
         <p style={{fontSize:"1.5rem"}}>VSCode</p>
