@@ -4,7 +4,8 @@ import Navigation from './components/Navigation';
 // import Navigation2 from './components/Navigation2';
 // import Navigation3 from './components/Navigation3';
 // import Navigation4 from './components/Navigation4';
-import ParticleBg from './components/ParticleBg';
+// import ParticleBg from './components/ParticleBg';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
 import About from './components/About';
@@ -13,6 +14,7 @@ import Cv from './components/Cv';
 import Feed from './components/Feed';
 import Footer from './components/Footer';
 import { Route, Routes, Navigate } from 'react-router-dom';
+import ParticleBg2 from './components/ParticleBg2';
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>}/>
         </Routes>
         <Footer />
-        <ParticleBg />
+        <ParticleBg2 />
       </div> 
   );
 }
