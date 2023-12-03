@@ -19,7 +19,7 @@ function Cv() {
     <div className="cv-header">
       <Container fluid className="resume-section">
        <Row>
-       <p className="tech">This is a downloadable <b style={{color:"aliceblue"}}>CV</b><br/><b style={{color:"aliceblue"}}><KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/></b> Please scroll down <b style={{color:"aliceblue"}}><KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/></b></p>
+       <p className="cv-title">This is a downloadable <b style={{color:"aliceblue"}}>CV</b><br/><b style={{color:"aliceblue"}}><KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/></b> Please scroll down <b style={{color:"aliceblue"}}><KeyboardDoubleArrowDownIcon style={{fontSize:"3rem"}}/></b></p>
        </Row>
 
         <Row className="resume">

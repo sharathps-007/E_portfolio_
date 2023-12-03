@@ -44,7 +44,7 @@ function ParticleBg(){
                             duration: 10,
                         },
                         grab: {
-                            distance: 200
+                            distance: 180
                         }
                     },
                 },

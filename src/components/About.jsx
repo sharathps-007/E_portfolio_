@@ -26,7 +26,7 @@ function About(){
                     <div class="about-body">
                         <p>Well ! <br/>I am <b style={{color:"rgb(210,210,210)"}}>Sharath</b>. 
                         I am from <b style={{color:"rgb(210,210,210)"}}>Hyderabad</b>, 
-                        <b style={{color:"rgb(210,210,210)"}}>India</b>.<br/>
+                        <b style={{color:"rgb(210,210,210)"}}> India</b>.<br/>
                         <br/>I recently graduated from 
                         <b style={{color:"rgb(210,210,210)"}}> Aurora's Technological and 
                         Research Institute</b> (Affiliated to JNTUH) in the course- 
@@ -34,7 +34,7 @@ function About(){
                         When I'm not working with pixels and code, you'll find me-
                         <br/>&gt;&gt; <b style={{color:"rgb(210,210,210)"}}>Travelling</b> and 
                         exploring new places<br/>&gt;&gt; <b style={{color:"rgb(210,210,210)"}}>
-                        Playong</b> outdoor sports</p>
+                        Playing</b> outdoor sports</p>
                     </div>
                     </div>
                 </Col>
